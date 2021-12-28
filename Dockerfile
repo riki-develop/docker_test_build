@@ -24,3 +24,5 @@ CMD ["ruby", "/var/www/main.rb"]
 
 # 後片付け imageを削除
 # docker system prune -a
+
+# テスト：社用Macからpush
