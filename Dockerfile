@@ -16,6 +16,10 @@ CMD ["ruby", "/var/www/main.rb"]
 # コンテナの作成・実行
 # docker container run -p 8000:8000 --name webrick sample/webrick:latest
 
+# コンテナの停止
+# docker container stop 【コンテナ名】
+# もしくは... control + C
+
 # logを見る
 # docker container logs webrick
 
