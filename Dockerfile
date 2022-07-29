@@ -20,13 +20,17 @@ CMD ["ruby", "/var/www/main.rb"]
 # docker container stop 【コンテナ名】
 # もしくは... control + C
 
+# コンテナの起動状況確認
+# docker container ls -a
+
+# コンテナの削除
+# docker container rm 【コンテナ名】
+
 # logを見る
 # docker container logs webrick
 
 # docker起動中に別のコマンドを打ちたい時
-# docker container exec webrick ruby -v
+# 例：docker container exec webrick ruby -v
 
 # 後片付け imageを削除
 # docker system prune -a
-
-# テスト：社用Macからpush
